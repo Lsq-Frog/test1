@@ -1,0 +1,71 @@
+html {
+  font-size : 20px;
+}
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+@media only screen and (min-width: 401px){
+  html {
+    font-size: 25px !important;
+  }
+}
+@media only screen and (min-width: 428px){
+  html {
+    font-size: 26.75px !important;
+  }
+}
+@media only screen and (min-width: 481px){
+  html {
+    font-size: 30px !important;
+  }
+}
+@media only screen and (min-width: 569px){
+  html {
+    font-size: 35px !important;
+  }
+}
+@media only screen and (min-width: 641px){
+  html {
+    font-size: 40px !important;
+  }
+}
+@media only screen and  (min-width: 981px){
+  .game-box {
+    max-width: 640px;
+    height: 100%;
+    left: 50% !important;
+    margin: 0 0 0 -320px;
+  }
+}
+.game-box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background-color: #f8f800;
+}
+.map-box {
+  position: absolute;
+  width: 100%;
+  top: 50% !important;
+  left: 0;
+  background-color: #ccc;
+  background-image: url(../img/map.jpg);
+  background-size: cover;
+}
+.chessman {
+  position: absolute;
+  border-radius: 50%;
+  &.hei {
+    background-color: #000;
+  }
+  &.bai {
+    background-color: #fff;
+  }
+}
